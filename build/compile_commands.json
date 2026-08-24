@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/jordan/Documents/CppStuff/ShipShapeCpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShipShapeCpp.dir/Container.cpp.o -c /home/jordan/Documents/CppStuff/ShipShapeCpp/src/Container.cpp",
+  "file": "/home/jordan/Documents/CppStuff/ShipShapeCpp/src/Container.cpp",
+  "output": "CMakeFiles/ShipShapeCpp.dir/Container.cpp.o"
+},
+{
+  "directory": "/home/jordan/Documents/CppStuff/ShipShapeCpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShipShapeCpp.dir/OneTEUContainer.cpp.o -c /home/jordan/Documents/CppStuff/ShipShapeCpp/src/OneTEUContainer.cpp",
+  "file": "/home/jordan/Documents/CppStuff/ShipShapeCpp/src/OneTEUContainer.cpp",
+  "output": "CMakeFiles/ShipShapeCpp.dir/OneTEUContainer.cpp.o"
+},
+{
+  "directory": "/home/jordan/Documents/CppStuff/ShipShapeCpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShipShapeCpp.dir/Ship.cpp.o -c /home/jordan/Documents/CppStuff/ShipShapeCpp/src/Ship.cpp",
+  "file": "/home/jordan/Documents/CppStuff/ShipShapeCpp/src/Ship.cpp",
+  "output": "CMakeFiles/ShipShapeCpp.dir/Ship.cpp.o"
+},
+{
+  "directory": "/home/jordan/Documents/CppStuff/ShipShapeCpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShipShapeCpp.dir/TEUCompartment.cpp.o -c /home/jordan/Documents/CppStuff/ShipShapeCpp/src/TEUCompartment.cpp",
+  "file": "/home/jordan/Documents/CppStuff/ShipShapeCpp/src/TEUCompartment.cpp",
+  "output": "CMakeFiles/ShipShapeCpp.dir/TEUCompartment.cpp.o"
+},
+{
+  "directory": "/home/jordan/Documents/CppStuff/ShipShapeCpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShipShapeCpp.dir/TwoTEUContainer.cpp.o -c /home/jordan/Documents/CppStuff/ShipShapeCpp/src/TwoTEUContainer.cpp",
+  "file": "/home/jordan/Documents/CppStuff/ShipShapeCpp/src/TwoTEUContainer.cpp",
+  "output": "CMakeFiles/ShipShapeCpp.dir/TwoTEUContainer.cpp.o"
+},
+{
+  "directory": "/home/jordan/Documents/CppStuff/ShipShapeCpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShipShapeCpp.dir/main.cpp.o -c /home/jordan/Documents/CppStuff/ShipShapeCpp/src/main.cpp",
+  "file": "/home/jordan/Documents/CppStuff/ShipShapeCpp/src/main.cpp",
+  "output": "CMakeFiles/ShipShapeCpp.dir/main.cpp.o"
+},
+{
+  "directory": "/home/jordan/Documents/CppStuff/ShipShapeCpp/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/ShipShapeCpp.dir/utils.cpp.o -c /home/jordan/Documents/CppStuff/ShipShapeCpp/src/utils.cpp",
+  "file": "/home/jordan/Documents/CppStuff/ShipShapeCpp/src/utils.cpp",
+  "output": "CMakeFiles/ShipShapeCpp.dir/utils.cpp.o"
+}
+]
