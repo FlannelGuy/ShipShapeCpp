@@ -35,7 +35,7 @@
     }
 
     const std::vector<Container> TEUCompartment::getCompartmentContainersAsVector(){
-        std::vector<Container> compartmentContainers;
+        std::vector<Container> compartmentContainers{};
         for(int i =0; i<TEUCount;i++){
             compartmentContainers.push_back(containers[i]);
         }
@@ -43,7 +43,7 @@
     }
 
     const std::vector<long> TEUCompartment::getCompartmentContainerIDs(){
-        std::vector<long> compartmentContainerIDs;
+        std::vector<long> compartmentContainerIDs{0L};
         for(Container container: getCompartmentContainersAsVector()){
             compartmentContainerIDs.push_back(container.getId());
         }

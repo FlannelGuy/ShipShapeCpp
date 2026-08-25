@@ -2,8 +2,9 @@
 #include "Ship.hpp"
 #include "Container.hpp"
 #include "utils.hpp"
+
 Ship::Ship(long id, std::string name, int widthX, int lengthY, int heightZ):
-    id(id),name(name),width(widthX),length(lengthY),height(heightZ)
+    id(id),name(name),width(widthX),length(lengthY),height(heightZ),numberOfOneTEUContainers(0),numberOfTwoTEUContainers(0)
 {
     compartments.resize(widthX);
     for (int x = 0; x < widthX; ++x) {
@@ -86,8 +87,6 @@ void Ship::generateRandomContainerWeights(){
         OneTEUVector.push_back(OneTEUContainer( idCount++,utils::getRandomNumberBetween(OneTEUMin,OneTEUMax+1)));
     }
 
-    std::sort(OneTEUVector.begin(), OneTEUVector.end());
-
     int TwoTEUMin = 52900;
     int TwoTEUMax = 67200;
 
@@ -95,12 +94,17 @@ void Ship::generateRandomContainerWeights(){
         TwoTEUVector.push_back(TwoTEUContainer( idCount++,utils::getRandomNumberBetween(TwoTEUMin,TwoTEUMax+1)));
     }
 
-    std::sort(TwoTEUVector.begin(), TwoTEUVector.end());
 }
 
 std::vector<TEUCompartment> Ship::getSortedCompartmentsVector(){
     std::vector< TEUCompartment > tempOneTEUCompartments{};
     std::vector< TEUCompartment > tempTwoTEUCompartments{};
+
+    std::sort(OneTEUVector.begin(),OneTEUVector.end());
+    std::reverse(OneTEUVector.begin(),OneTEUVector.end());
+    
+    std::sort(TwoTEUVector.begin(),TwoTEUVector.end());
+    std::reverse(TwoTEUVector.begin(),TwoTEUVector.end());
 
     for(int i =0; i< OneTEUVector.size();i+=2){
         TEUCompartment tempCompartment{};
