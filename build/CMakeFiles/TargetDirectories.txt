@@ -1,3 +1,0 @@
-/home/jordan/Documents/CppStuff/ShipShapeCpp/build/CMakeFiles/ShipShapeCpp.dir
-/home/jordan/Documents/CppStuff/ShipShapeCpp/build/CMakeFiles/edit_cache.dir
-/home/jordan/Documents/CppStuff/ShipShapeCpp/build/CMakeFiles/rebuild_cache.dir

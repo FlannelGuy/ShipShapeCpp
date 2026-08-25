@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/ShipShapeCpp.dir/Container.cpp.o CMakeFiles/ShipShapeCpp.dir/OneTEUContainer.cpp.o CMakeFiles/ShipShapeCpp.dir/Ship.cpp.o CMakeFiles/ShipShapeCpp.dir/TEUCompartment.cpp.o CMakeFiles/ShipShapeCpp.dir/TwoTEUContainer.cpp.o CMakeFiles/ShipShapeCpp.dir/main.cpp.o CMakeFiles/ShipShapeCpp.dir/utils.cpp.o -o ShipShapeCpp 
